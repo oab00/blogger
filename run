@@ -1,0 +1,2 @@
+kill -INT $(cat tmp/pids/server.pid)
+bin/rails server -d -b 0.0.0.0
